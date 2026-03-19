@@ -218,6 +218,7 @@ body{
     border: 1px solid orangered;
     padding: 10px;
     color: rgb(70, 67, 67);
+    transition: 0.4s;
 }
 .small-container .box:hover{
     background-color: orangered;
