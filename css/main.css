@@ -13,6 +13,7 @@
     display: flex;
     justify-content: space-between;
     height: 70px;
+    max-width: 100%;
     align-items: center;
     position: sticky;
     top: 0;
@@ -165,9 +166,17 @@ body{
 }
 /*--------------------Contact------------------------ */
 
-.contact , .contact form{
+.contact{
     height: 500px;
-    width: 600px;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.contact form{
+    height: 500px;
+    max-width: 600px;
+    margin:10px;
     display: flex;
     flex-direction: column;
     justify-content: center;
