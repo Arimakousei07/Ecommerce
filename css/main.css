@@ -219,6 +219,10 @@ body{
     padding: 10px;
     color: rgb(70, 67, 67);
 }
+.small-container .box:hover{
+    background-color: orangered;
+    color: whitesmoke;
+}
 .small-container .BOX{
     height: 80px;
     margin: 20px;
